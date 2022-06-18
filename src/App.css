@@ -1,0 +1,332 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+
+}
+.cards{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+
+}
+/* {
+  align-items: flex-start;
+  text-decoration: none; */
+/* } */
+.App{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.toto1{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 40px;
+
+}
+.toto2 h1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  padding-bottom: 15px;
+}
+.toto2 p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #373737;
+  padding-bottom: 45px;
+  margin-left: 60px;
+}
+.toto3 p{
+  padding-top: 110px;
+  padding-left: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  color: #373737;
+  padding-bottom: 30px;
+}
+.btn{
+  padding-top: -150px;
+  position: absolute;
+  background: #373737;
+  border-radius: 5px;
+  margin-left: 30px;
+  padding: 13px;
+}
+.toto3 img{
+  padding-top: 75px;
+  padding-left: 30px;
+  margin: 24px;
+}
+.cardv2 {
+  margin: 40px ;
+  padding-top: 70px;
+}
+.cardv2 p{
+  padding-bottom: 45px;
+  padding-left: 60px;
+  padding-top: 15px;
+  text-align: justify;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #373737;
+}
+.cardv3{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 40px;
+  gap: 15px;
+}
+.cardv4{
+  text-align: justify;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding: 12px;
+}
+.cardv4 h3{
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+.cardv4 p{
+  padding-top: 10px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #696161;
+}
+
+
+
+
+
+
+/* card  */
+.toto6{
+  display:block;
+  height: 100%;
+  background: #E9FBF8;
+  border-radius: 2px;
+  transform: matrix(1, 0, 0, +1, 0, 0);
+}
+.toto5 h1{
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 61px;
+  text-align: center;
+  color: #292525;
+}
+.cards1{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: #E9FBF8;
+  gap: 30px;
+  box-shadow: 0px 97px 90px rgba(7, 0, 59, 0.12);
+  border-radius: 12px;
+  padding: 40px 30px;
+}
+.card-body{
+  margin-top: 20px;
+  width: 325px;
+  text-align: justify;
+  padding: 30px 30px;
+  background: #FDFDFF;
+  box-shadow: 0px 34px 66px rgba(7, 0, 59, 0.08);
+  border-radius: 12px;
+}
+.card-body:hover{
+  background: rgba(184, 6, 30, 0.712);
+  transition: 0.15s ease-in-out;
+  box-shadow: rgba(7, 0, 59, 0.08);
+}
+.card-body h5{
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #292525;
+}
+.card-body p{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.7;
+}
+.btn-primary{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #7BC0E3;
+}
+
+/* card1   */
+.appp{
+  height: 803px;
+  width: 100%;
+  background: url('../public/icon/BG.png') center center / cover no-repeat;
+}
+.rasm{
+  display: grid;
+  grid-template-columns: 50% 30%;
+  align-items: center;
+  padding-left: 250px;
+  border-radius: 5px;
+  margin-top: 240px;
+}
+.appp2 h1{
+  padding-top: 80px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.appp2 p{
+  justify-content: center;
+  width: 200px;
+  height: 2px;
+  background: #000000;
+}
+
+.imges{
+  border-radius: 10px;
+  height: 400px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),url('../public/icon/111111.png');
+}
+.imges p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+.imges2{
+  border-radius: 10px;
+  height: 400px;
+  background: linear-gradient(0deg, rgba(20, 58, 121, 0.4), rgba(20, 58, 121, 0.4)), url('../public/icon/22222.png');
+}
+.imges p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+.imges3{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto;
+  border-radius: 10px;
+  height: 400px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%), url('../public/icon/chanel.png');
+}
+.imges3 p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+
+}
+.btn7{
+  padding: 12px 20px;
+  height: 48px;
+  background: #FFD700;
+  border-radius: 800px;
+}
+.from{
+  text-align: center ;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.froms{
+  width: 600px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+}
+input{
+  width: 90%;
+}
+table,tr,th,td{
+  border: 1px solid gray;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table{
+  margin: 40px;
+}
+.video{
+  width: 400px;
+  height: 400px;
+}
+.vidiolar{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0 200px;
+}
+.video video{
+  width: 100%;
+  height: 100%;
+}
+.card{
+  width: 100px;
+  height: 100px;
+  padding: 40px;
+}
+.cards button{
+  background: rgba(184, 6, 30, 0.712);
+  padding: 30px;
+}
+input{
+  padding: 10px;
+  height: 50px;
+  margin-top: 70px;
+}
+button{
+  background: rgba(184, 6, 30, 0.712);
+  padding: 10px;
+}
